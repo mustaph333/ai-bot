@@ -1,6 +1,6 @@
 # AI Bot
 
-A Telegram bot with an AI brain. Message it, and it answers using AI - running right from your own computer.
+A Telegram chat bot with an AI brain. Message it, and it chats back using AI.
 
 ## Status
 In progress - built step by step as a learning project.
@@ -8,8 +8,12 @@ In progress - built step by step as a learning project.
 ## Roadmap
 - [x] Create the bot with BotFather
 - [ ] Echo bot - replies to your messages
-- [ ] AI brain - answers powered by AI
-- [ ] PC commands - run tasks on your computer from Telegram
+- [ ] AI brain - chat with AI
+
+## Later ideas (set aside for now)
+- PC commands - run tasks on your computer from Telegram
+- Reminders and notes
+- Price alerts
 
 ## Tech stack
 - Python
