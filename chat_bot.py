@@ -31,6 +31,16 @@ GEMINI_KEY_FILE = "/home/hatch/.config/telegram-bot/gemini.key"
 GEMINI_MODEL = "gemini-3.8-flash"
 HISTORY_FILE = os.path.join(BASE, "history.json")
 HISTORY_LIMIT = 20  # messages kept per chat
+# Local-only extra language instructions. Never committed to GitHub.
+LANG_PROMPT_FILE = os.path.join(BASE, "lang_prompt.txt")
+
+
+def get_extra_lang_prompt() -> str:
+    try:
+        with open(LANG_PROMPT_FILE) as f:
+            return f.read().strip()
+    except Exception:
+        return ""
 
 
 def get_token() -> str:
@@ -182,11 +192,9 @@ def ai_reply(text: str, name: str, history=None, image_b64=None):
                                     "conversation history so you remember what was said before. "
                                     "When the person sends a photo, you can see it - describe or react to what's "
                                     "actually in the image. "
-                                    "You understand Moroccan Darija and Tashelhit (Shilha Berber) as well as English and French. "
+                                    "You understand English, German, Japanese and Arabic. "
                                     "Always reply in the same language the person uses. "
-                                    "Tashelhit basics: manik = what; manzakin = how are you (reply ghikan = likewise); "
-                                    "mastin siwis = how is it going; nik = I/me, kiy = you; oho = no, yh = yes; "
-                                    "verb ending -gh means 'I did' (skrgh = I did); or- prefix means not (orsingh = I don't know). "
+                                    + get_extra_lang_prompt() + " "
                                     "Match your reply length to the question - short for small talk, "
                                     "detailed for real questions. "
                                     "If they ask what you can do, say you can chat about anything, answer questions, "
