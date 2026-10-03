@@ -20,4 +20,11 @@ pip install -r requirements.txt
 python bot.py
 
 ## What I learned
-(notes go here as the project grows)
+- **Python** - scripting basics: variables, loops, functions
+- **HTML & CSS** - page structure and styling fundamentals
+- **Django** - tutorials: MTV pattern, models and views
+- **Telegram bots** - created a bot with BotFather, worked with API tokens
+- **GitHub** - profile README, repos, README / .gitignore / requirements.txt
+
+## Daily log
+See [learning-log.md](learning-log.md) for day-by-day progress.
