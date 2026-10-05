@@ -17,3 +17,6 @@ Day-by-day notes on what I am building and learning.
 - Accepted a second Tashelhit teacher for the bot - words he teaches go into the phrasebook and the bot's language file, same as mine
 - Taught the bot new Tashelhit words and rules (ama matgis, ork fhimgh, ma3 = why only, manik standalone, ma trit, gher = only, no-laughing rule) and purged words I never taught (tqim, kandhk)
 - Translated 80 English words into Tashelhit in 8 batches of 10 for the phrasebook
+
+## 2026-10-05
+- Today's concept (AI): looked into Wan2GP for local AI video generation - needs an NVIDIA CUDA GPU with 6GB+ VRAM, 16GB+ RAM and plenty of disk space; my RTX 2060 meets the stated minimum. No setup started yet.
