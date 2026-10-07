@@ -20,3 +20,12 @@ Day-by-day notes on what I am building and learning.
 
 ## 2026-10-05
 - Today's concept (AI): looked into Wan2GP for local AI video generation - needs an NVIDIA CUDA GPU with 6GB+ VRAM, 16GB+ RAM and plenty of disk space; my RTX 2060 meets the stated minimum. No setup started yet.
+
+## 2026-10-06
+- No coding or lessons today - the day went to automation orders (usage-limit pause, timezone pinning, German phrases replacing the learn nudges) and security checks.
+- Today's concept: `try/except` - wrapping a risky call (like an API request) in `try/except` lets a program catch the error and keep running instead of crashing. My @raisxs_bot uses this idea when it retries the Gemini API up to 3 times with backoff on 429/503 errors.
+
+
+## 2026-10-07
+- No coding or lessons today - the day went to translating Tashelhit words from my WhatsApp chats (40+ words in 4 batches of 10), tuning the bot's voice ("answer like you are me"), and fixing its slow replies with instant answers.
+- Today's concept: systemd services - a `.service` file tells Linux how to start a program, restart it automatically if it crashes, and launch it at boot. That is how my @raisxs_bot stays alive on my PC instead of only running while a terminal is open.
