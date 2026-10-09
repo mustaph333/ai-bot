@@ -29,3 +29,7 @@ Day-by-day notes on what I am building and learning.
 ## 2026-10-07
 - No coding or lessons today - the day went to translating Tashelhit words from my WhatsApp chats (40+ words in 4 batches of 10), tuning the bot's voice ("answer like you are me"), and fixing its slow replies with instant answers.
 - Today's concept: systemd services - a `.service` file tells Linux how to start a program, restart it automatically if it crashes, and launch it at boot. That is how my @raisxs_bot stays alive on my PC instead of only running while a terminal is open.
+
+## 2026-10-08
+- No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green). Researched the RTX 3080 upgrade: used 10GB models on Avito go for 4,000-5,000 dh, Ti/12GB around 6,000, so selling the RTX 2060 (about 2,000 dh) means roughly 2-3k dh out of pocket. Still deciding whether to start hunting now or after the 2060 sells.
+- Today's concept (Python): web scraping basics - fetch a listing page with `requests`, parse the HTML with `BeautifulSoup`, and pull the price and title out of each listing element. The Avito price-tracker project would run that on a schedule and send a Telegram alert when a 3080 drops below my target price.
