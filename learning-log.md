@@ -37,3 +37,9 @@ Day-by-day notes on what I am building and learning.
 ## 2026-10-09
 - No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), the reel watch, and Netflix payment/security follow-ups.
 - Today's concept (Python): keep secrets out of code - a program should never hardcode API keys or bot tokens. Instead it reads them from environment variables (e.g. `os.environ.get("BOT_TOKEN")`) or from a file with 600 permissions. That is why my @raisxs_bot's token and Gemini key live in `~/.config/telegram-bot/`, never in the public `chat_bot.py` on GitHub.
+
+## 2026-10-10
+- Weekend project started: the RTX 3080 Avito price-tracker skeleton is up at `~/workspace/price-tracker/` - it fetches Avito listings and parses prices already.
+- Two milestones left for me: write the CSS selectors (the README shows exactly how) and build the price history + Telegram alert.
+- Real-world snag: Avito started showing a "verify you're human" checkbox from the server's end (probably blocking datacenter IPs), so the live test data for my selectors is on hold - either a one-time click-through or running the tracker from my home PC where Avito loads normally.
+- Today's concept (HTML/CSS): CSS selectors are how a scraper points at the right HTML - `.price` means any element with class "price", `div.title` means a `<div>` with class "title". Writing good selectors is what makes a tracker grab exactly the prices and skip the junk around them.
