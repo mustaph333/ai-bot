@@ -33,3 +33,7 @@ Day-by-day notes on what I am building and learning.
 ## 2026-10-08
 - No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green). Researched the RTX 3080 upgrade: used 10GB models on Avito go for 4,000-5,000 dh, Ti/12GB around 6,000, so selling the RTX 2060 (about 2,000 dh) means roughly 2-3k dh out of pocket. Still deciding whether to start hunting now or after the 2060 sells.
 - Today's concept (Python): web scraping basics - fetch a listing page with `requests`, parse the HTML with `BeautifulSoup`, and pull the price and title out of each listing element. The Avito price-tracker project would run that on a schedule and send a Telegram alert when a 3080 drops below my target price.
+
+## 2026-10-09
+- No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), the reel watch, and Netflix payment/security follow-ups.
+- Today's concept (Python): keep secrets out of code - a program should never hardcode API keys or bot tokens. Instead it reads them from environment variables (e.g. `os.environ.get("BOT_TOKEN")`) or from a file with 600 permissions. That is why my @raisxs_bot's token and Gemini key live in `~/.config/telegram-bot/`, never in the public `chat_bot.py` on GitHub.
