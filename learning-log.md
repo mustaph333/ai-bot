@@ -43,3 +43,7 @@ Day-by-day notes on what I am building and learning.
 - Two milestones left for me: write the CSS selectors (the README shows exactly how) and build the price history + Telegram alert.
 - Real-world snag: Avito started showing a "verify you're human" checkbox from the server's end (probably blocking datacenter IPs), so the live test data for my selectors is on hold - either a one-time click-through or running the tracker from my home PC where Avito loads normally.
 - Today's concept (HTML/CSS): CSS selectors are how a scraper points at the right HTML - `.price` means any element with class "price", `div.title` means a `<div>` with class "title". Writing good selectors is what makes a tracker grab exactly the prices and skip the junk around them.
+
+## 2026-10-12
+- No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), a new batch of Tashelhit words from my WhatsApp chats sent off for translation, and a fresh Avito pull showing six RTX 3080 cards at or below my 4,500 dh target.
+- Today's concept (automation): cron - the Linux scheduler behind my @raisxs_bot watchdogs, the 15-minute reel watch and the German phrase jobs. A line like `*/15 * * * * command` means "run every 15 minutes"; the five fields are minute, hour, day-of-month, month and day-of-week.
