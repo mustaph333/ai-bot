@@ -47,3 +47,7 @@ Day-by-day notes on what I am building and learning.
 ## 2026-10-12
 - No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), a new batch of Tashelhit words from my WhatsApp chats sent off for translation, and a fresh Avito pull showing six RTX 3080 cards at or below my 4,500 dh target.
 - Today's concept (automation): cron - the Linux scheduler behind my @raisxs_bot watchdogs, the 15-minute reel watch and the German phrase jobs. A line like `*/15 * * * * command` means "run every 15 minutes"; the five fields are minute, hour, day-of-month, month and day-of-week.
+
+## 2026-10-13
+- No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), the reel watch, German phrases and anime checks. Instagram blocked DM reads server-side for a few hours (HTTP 403 gating from Meta, not a broken login); reads worked again later on their own.
+- Today's concept (Python): virtual environments - a `venv` is a private folder holding the exact packages one project needs, so the bot's libraries never clash with the system Python. That is what `ai-bot`'s `requirements.txt` is for: inside its venv you run `pip install -r requirements.txt` and the project gets exactly the packages it was built with.
