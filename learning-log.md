@@ -51,3 +51,8 @@ Day-by-day notes on what I am building and learning.
 ## 2026-10-13
 - No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), the reel watch, German phrases and anime checks. Instagram blocked DM reads server-side for a few hours (HTTP 403 gating from Meta, not a broken login); reads worked again later on their own.
 - Today's concept (Python): virtual environments - a `venv` is a private folder holding the exact packages one project needs, so the bot's libraries never clash with the system Python. That is what `ai-bot`'s `requirements.txt` is for: inside its venv you run `pip install -r requirements.txt` and the project gets exactly the packages it was built with.
+
+## 2026-10-14
+- No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), the reel watch, German phrases and anime checks.
+- RTX 3080 market update: the 4,000 dh Founders Edition and the 4,400 dh ASUS TUF sold within days; a new Gigabyte Gaming OC 10GB appeared at exactly 4,500 dh in Meknès - cheap cards move in about two days, so a tracker alert has to fire the same day to be useful.
+- Today's concept (Python): dictionaries - `seen = {"FEs": 4000}` maps a label to a value, and `seen["FEs"]` reads it back instantly. A price tracker keeps seen listings in a dict so it can alert only when a new card appears or a price actually changes.
