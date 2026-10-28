@@ -105,5 +105,7 @@ Day-by-day notes on what I am building and learning.
 - B1 German drills continued - phrase #19 of 231 from the Phase 1 list, sent via @raisxs_bot.
 
 ## 2026-10-28
-- No code written today - automation has been paused since 26 Oct at 97% of the weekly usage limit (reset due this afternoon), so the German phrase drills and other scheduled jobs did not run, and no new coding or lessons happened.
+- Portfolio language switcher built at my direction and pushed to mustaph333/portfolio main (commit 2161caf154f70abfbc7dee7ada0abe4584cf7a63): EN/FR/ES/AR switcher in the header, 194 data-i18n keys, Arabic as full RTL, choice saved in localStorage. At last check GitHub Pages was still serving the old version - a propagation lag, not a build failure.
+- Video-tool verdict: I ordered a free-tool rerender of the stolen-$10M stick-figure reel and chose Manim - a 69s vertical version was delivered - then rejected it ("only Higgsfield is good in animation") and chose the real Higgsfield route. Sign-in access is now available, but on HOLD: no test clip, payment, or plan change until I say go.
+- B1 German drills resumed after the usage-guard pause lifted: evening phrase 24/231 sent via @raisxs_bot ("Er ist heute Morgen zu spät zur Arbeit gekommen." / "He arrived late for work this morning."); index now 25.
 - Today's concept (Python): list comprehensions - `[p for p in prices if p <= 4500]` builds a new list in one line, keeping only the items that pass the test. It replaces a loop plus an `if` plus an `append`, and it is exactly how a price tracker would filter Avito listings down to the ones under a target price.
