@@ -144,5 +144,5 @@ Day-by-day notes on what I am building and learning.
 
 ## 2026-11-04
 - No code written today - the day went to closing out my wallet question (what a "token code" can and can't do: 12/24 English words = seed phrase, a long letters-and-numbers string = private key - both are the login; a short SMS/email code is not, for Trust Wallet/MetaMask) and riding out the usage-limit pause, which lifted at 17:06 after the weekly reset - all automation back on.
-- B1 German drill: phrase #42 of 231 sent via @raisxs_bot - index now 43.
+- B1 German drill: phrases #42 and #43 of 231 sent via @raisxs_bot (afternoon + evening) - index now 44.
 - Today's concept (Python): `dict.get()` - `config.get("token")` reads a key without crashing if it is missing (returns None instead of raising KeyError), and `config.get("retries", 3)` supplies a fallback default. It is the safe way to read optional settings - one unexpected field in Telegram's JSON reply can't take the whole bot down.
