@@ -132,3 +132,17 @@ Day-by-day notes on what I am building and learning.
 - No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green), the reel watch (funny-share reactions only, no new reels from the three friends), and the evening German drill.
 - B1 German drills continued: phrases #34, #35 and #36 of 231 from the Phase 1 list, sent via @raisxs_bot (morning, afternoon, evening) - index now 37.
 - Today's concept (Python): JSON - my bot saves its memory in JSON files (reel watermarks, seen-line counts, usage-guard state). `json.dump()` turns a Python dict into a text file, and `json.load()` reads it back on the next run. That is how a script "remembers" what it already did after the computer restarts.
+
+## 2026-11-02
+- No code written today - the day went to keeping @raisxs_bot healthy (watchdogs, relay, usage guard all green) and flagging two fresh USAFIS immigration lures in my inbox.
+- B1 German drill: phrase #39 of 231 sent via @raisxs_bot (evening) - index now 40.
+- Today's concept (Python): `sorted()` - it returns a new sorted list without touching the original: `sorted(prices)` for numbers, `sorted(names, reverse=True)` for Z-to-A. Unlike `list.sort()` it never mutates in place, so it is safe to call on data you still need in the original order.
+
+## 2026-11-03
+- No code written today - @raisxs_bot ran healthy all day until the weekly usage limit hit 95% at 20:06 and the usage guard paused all automation (resume after the weekly reset). Answered my Dahua camera question (forgotten password -> factory-reset procedure) and flagged another USAFIS lure.
+- B1 German drills: phrases #40 and #41 of 231 sent via @raisxs_bot (morning + afternoon) - index now 42; the evening drill was skipped after the pause.
+
+## 2026-11-04
+- No code written today - the day went to closing out my wallet question (what a "token code" can and can't do: 12/24 English words = seed phrase, a long letters-and-numbers string = private key - both are the login; a short SMS/email code is not, for Trust Wallet/MetaMask) and riding out the usage-limit pause, which lifted at 17:06 after the weekly reset - all automation back on.
+- B1 German drill: phrase #42 of 231 sent via @raisxs_bot - index now 43.
+- Today's concept (Python): `dict.get()` - `config.get("token")` reads a key without crashing if it is missing (returns None instead of raising KeyError), and `config.get("retries", 3)` supplies a fallback default. It is the safe way to read optional settings - one unexpected field in Telegram's JSON reply can't take the whole bot down.
