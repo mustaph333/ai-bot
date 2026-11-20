@@ -199,3 +199,8 @@ Day-by-day notes on what I am building and learning.
 - Explored AI voice cloning for narration: VoiceStudio's default engine is CC-BY-NC (non-commercial) - unsafe for monetised videos. Cloning my own voice is rights-safe, and the Seed-VC route avoids the licence problem. Still need to record my 30-second voice sample.
 - Looked into automating DaVinci Resolve with Python: Resolve's scripting API can import media, build a timeline scene by scene and set render settings. Bro offered to write an auto-assembly script for the Red Indians long video.
 - Today's concept (Python/automation): a script driving another app through its API follows the same pattern as my Telegram bot - connect, send commands, handle the result. No new code written today. B1 German drills continued - phrases #66, #67 and #68 of 231 sent via @raisxs_bot.
+
+## 2026-11-20
+- No code written today - the day went to Instagram (asked about the new Content Protection tool for my reels; it is app-only and not showing in my dashboard yet, so activation is still unconfirmed) and the usual bot/reel watches, all green.
+- B1 German drills continued - phrases #69, #70 and #71 of 231 sent via @raisxs_bot (morning, afternoon, evening).
+- Today's concept (Python/automation): `subprocess.run` - Python can run an external program like ffmpeg with `subprocess.run(["ffmpeg", ...], check=True)`; `check=True` raises an error if the command fails, and `capture_output=True` keeps its stdout/stderr for logging instead of printing to the terminal. That is how a Python script can drive ffmpeg renders the way my video pipeline does.
