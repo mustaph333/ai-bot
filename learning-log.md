@@ -204,3 +204,8 @@ Day-by-day notes on what I am building and learning.
 - No code written today - the day went to Instagram (asked about the new Content Protection tool for my reels; it is app-only and not showing in my dashboard yet, so activation is still unconfirmed) and the usual bot/reel watches, all green.
 - B1 German drills continued - phrases #69, #70 and #71 of 231 sent via @raisxs_bot (morning, afternoon, evening).
 - Today's concept (Python/automation): `subprocess.run` - Python can run an external program like ffmpeg with `subprocess.run(["ffmpeg", ...], check=True)`; `check=True` raises an error if the command fails, and `capture_output=True` keeps its stdout/stderr for logging instead of printing to the terminal. That is how a Python script can drive ffmpeg renders the way my video pipeline does.
+
+## 2026-11-21
+- No code written today - the day went to the lost-inventions video: v2 rebuilt with real moving footage (16 of 24 beats real, no space imagery), then the audio fix delivered - last-scene narration re-recorded slower with real pauses, visuals untouched, end card +0.5s. Still unpublished, awaiting my order; Instagram goes Trial Reel first when it does.
+- B1 German drills continued - phrases #72 and #73 of 231 sent via @raisxs_bot (morning and afternoon); evening phrase #74 prepared.
+- Today's concept (video/audio): a video file can claim one length but play faster if its audio track has gaps - v2's AAC audio claimed 186.5s but only held ~166.1s of real samples, so players skipped the gap and the voice suddenly sped up. The fix was a one-pass decode and re-encode with no speed filters, plus checking the audio envelope to confirm a steady pace throughout.
